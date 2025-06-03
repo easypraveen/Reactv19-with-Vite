@@ -1,1 +1,1 @@
-install react create-react-app <app-name>
+##install react create-react-app <app-name>
