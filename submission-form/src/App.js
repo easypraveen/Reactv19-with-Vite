@@ -1,23 +1,43 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./pages/header";
+import Footer from "./pages/footer";
+import UserList from "./pages/userList";
+import { useState } from "react";
+import UserForm from "./pages/userForm";
+import UserControllForm from "./pages/controlledForm";
+import ExerciseForm from "./pages/exerciseForm";
+import SkillForm from "./pages/skillForm";
 
 function App() {
+  const name = "praveen";
+  const [count, setCount] = useState(0);
+  const handleClick = () => {
+    alert("hi praveen singh");
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-4">
+      <Header userName={name} />
+      <Footer title="footer" />
+      <UserList />
+      <UserForm />
+      <UserControllForm />
+      <ExerciseForm />
+      <SkillForm />
+      {/* <h1 className="text-3xl font-bold">Hello {name}</h1>
+      <h1 className="text-3xl font-bold">count: {count}</h1>
+      <button
+        className="bg-blue-500 text-white p-2 rounded-md mb-4"
+        onClick={() => setCount(count + 1)}
+      >
+        Increment
+      </button>
+      <br></br>
+      <button
+        className="bg-blue-500 text-white p-2 rounded-md"
+        onClick={handleClick}
+      >
+        click Me!
+      </button> */}
     </div>
   );
 }
