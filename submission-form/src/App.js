@@ -7,6 +7,9 @@ import UserForm from "./pages/userForm";
 import UserControllForm from "./pages/controlledForm";
 import ExerciseForm from "./pages/exerciseForm";
 import SkillForm from "./pages/skillForm";
+import FormValidation from "./pages/formValidation";
+import TwoStateForm from "./pages/twoStatesFrom";
+import Button from "./ui-component/button";
 
 function App() {
   const name = "praveen";
@@ -23,6 +26,9 @@ function App() {
       <UserControllForm />
       <ExerciseForm />
       <SkillForm />
+      <FormValidation />
+      <TwoStateForm />
+      <Button label="Click Me!" onClick={() => alert("Clicked")} />
       {/* <h1 className="text-3xl font-bold">Hello {name}</h1>
       <h1 className="text-3xl font-bold">count: {count}</h1>
       <button
