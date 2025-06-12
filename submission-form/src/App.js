@@ -10,6 +10,10 @@ import SkillForm from "./pages/skillForm";
 import FormValidation from "./pages/formValidation";
 import TwoStateForm from "./pages/twoStatesFrom";
 import Button from "./ui-component/button";
+import Card from "./ui-component/card";
+import AlertBox from "./ui-component/alertbox";
+import Avatar from "./ui-component/avatar";
+import alonMusk from "./assets/elon-musk-wikipedia.webp"
 
 function App() {
   const name = "praveen";
@@ -28,7 +32,33 @@ function App() {
       <SkillForm />
       <FormValidation />
       <TwoStateForm />
-      <Button label="Click Me!" onClick={() => alert("Clicked")} />
+      <Button label="Save" size="small" />
+      <Button
+        label="Delete"
+        bgColor="bg-red-600"
+        borderColor="border-red-300"
+        size="medium"
+      />
+      <Button label="Download" rounded={false} />
+      <Card
+        title="React Developer"
+        content="Build scalable and beautiful UIs."
+        footer="Updated 1 day ago"
+        bgColor="bg-blue-100"
+        textColor="text-blue-800"
+        border={true}
+      />
+      <AlertBox type="success" message="Form submitted successfully!" />
+      <AlertBox type="error" message="Something went wrong." />
+      <AlertBox type="info" message="Please read the instructions." />
+      <AlertBox message="" />
+      <Avatar name="Praveen Singh" />
+      <Avatar
+        name="Elon Musk"
+        imageUrl={alonMusk}
+        size="lg"
+      />
+      <Avatar name="John" size="sm" />
       {/* <h1 className="text-3xl font-bold">Hello {name}</h1>
       <h1 className="text-3xl font-bold">count: {count}</h1>
       <button
