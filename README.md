@@ -36,6 +36,6 @@ vite.config.js
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/easypraveen/Reactv19-with-Vite.git
 cd your-repo-name
 
