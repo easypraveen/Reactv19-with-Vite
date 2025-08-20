@@ -50,6 +50,20 @@ vite.config.js
 
 ```bash
 git clone https://github.com/easypraveen/Reactv19-with-Vite.git
-cd your-repo-name
+cd Reactv19-with-Vite
+
+npm create vite@latest
+
+##Install dependencies
+npm install
+
+##Start the development server
+npm run dev
+
+##Build for production
+npm run build
+
+##Preview production build locally
+npm run preview
 
 
