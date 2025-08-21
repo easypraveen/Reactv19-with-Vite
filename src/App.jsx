@@ -3,6 +3,7 @@ import './App.css'
 import TodoList from "./pages/TodoList"
 import ChipsInput from "./pages/ChipsInput"
 import FaqAccordion from "./pages/FaqAccordian"
+import ColorExplorer from "./pages/ColorExplorer"
 export const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ export const App = () => {
    <TodoList />
    <ChipsInput />
    <FaqAccordion />
+   <ColorExplorer/>
     </>
   )
 }
