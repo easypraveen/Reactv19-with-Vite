@@ -7,6 +7,7 @@ import ColorExplorer from "./pages/ColorExplorer"
 import TooglePassword from "./pages/tooglepassword/TooglePassword"
 import Counter from "./pages/Counter"
 import ProgressBars from "./pages/progressbar/Progressbars"
+import CharacterCount from "./pages/charCount/charCount"
 export const App = () => {
   return (
     <>
@@ -17,7 +18,8 @@ export const App = () => {
    <ColorExplorer/> */}
     {/* <TooglePassword />
     <Counter /> */}
-   <ProgressBars />
+   {/* <ProgressBars /> */}
+   <CharacterCount />
     </>
   )
 }
