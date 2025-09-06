@@ -8,6 +8,7 @@ import TooglePassword from "./pages/tooglepassword/TooglePassword"
 import Counter from "./pages/Counter"
 import ProgressBars from "./pages/progressbar/Progressbars"
 import CharacterCount from "./pages/charCount/charCount"
+import ToolTip from "./pages/tooltip/ToolTip"
 export const App = () => {
   return (
     <>
@@ -19,7 +20,8 @@ export const App = () => {
     {/* <TooglePassword />
     <Counter /> */}
    {/* <ProgressBars /> */}
-   <CharacterCount />
+   {/* <CharacterCount /> */}
+   <ToolTip />
     </>
   )
 }
