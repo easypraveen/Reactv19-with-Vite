@@ -9,6 +9,7 @@ import Counter from "./pages/Counter"
 import ProgressBars from "./pages/progressbar/Progressbars"
 import CharacterCount from "./pages/charCount/charCount"
 import ToolTip from "./pages/tooltip/ToolTip"
+import GetWeekday from "./pages/weekday/WeekDay"
 export const App = () => {
   return (
     <>
@@ -21,7 +22,8 @@ export const App = () => {
     <Counter /> */}
    {/* <ProgressBars /> */}
    {/* <CharacterCount /> */}
-   <ToolTip />
+   {/* <ToolTip /> */}
+   <GetWeekday />
     </>
   )
 }
